@@ -45,7 +45,7 @@ pipeline {
 //             environment { 
 //                 CANARY_REPLICAS = 1
 //             }
-//             steps {
+            steps {
 //                 kubernetesDeploy(
 //                     kubeconfigId: 'kubeconfig',
 //                     configs: 'train-schedule-kube-canary.yml',
